@@ -1,6 +1,6 @@
-FROM node:18-alpine
+FROM node:22
 
-WORKDIR /app
+WORKDIR /home/node/app
 
 COPY package.json .
 
